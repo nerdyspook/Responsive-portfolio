@@ -11,7 +11,7 @@
     <!-- ====================== CSS ==================== -->
     <link rel="stylesheet" href="/css/styles.css">
 
-    <title>Document</title>
+    <title>Susanto Mahato | Web Developer</title>
 </head>
 <body>
     <!-- ======================= Header ================ -->
@@ -23,9 +23,9 @@
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav_link">Home</a></li>
-                    <li class="nav__item"><a href="#" class="nav_link">Projects</a></li>
-                    <li class="nav__item"><a href="#" class="nav_link">Blogs</a></li>
+                    <li class="nav__item"><a href="/index.html" class="nav_link">Home</a></li>
+                    <li class="nav__item"><a href="/projects.html" class="nav_link">Projects</a></li>
+                    <li class="nav__item"><a href="/blogs.html" class="nav_link">Blogs</a></li>
                 </ul>
             </div>
 
@@ -35,10 +35,58 @@
         </nav>
     </header>
 
-    <!-- ======================= Footer ================ -->
+    <!-- ======================== Main ================= -->
+    <main>
+        <section class="blogs section" id="blogs">
+            <h2 class="section-title">Blogs</h2>
 
-    <!-- ====================== Scroll Reveal ==================== -->
-    <script src="https://unpkg.com/scrollreveal"></script>
+            <div class="blogs__container">
+
+                <div class="blog__container">
+                    <h2>Semantic Git Commit messages which everyone should follow! 📝</h2>
+                    <small>17th Aug 2021.</small>
+                    <p>This blog tells us about the semantic git commits that we should regularly.</p>
+                    <br>
+                    <a href="https://nerdyspook.hashnode.dev/semantic-git-commit-messages-which-everyone-should-follow" class="read">Read</a>
+                </div>
+    
+                <div class="blog__container css">
+                    <h2>CSS Pseudo-elements</h2>
+                    <small>17th Aug 2021.</small>
+                    <p>This blog tells us about the CSS pseudo-elements which we can use in our styles.</p>
+                    <br>
+                    <a href="https://nerdyspook.hashnode.dev/css-pseudo-elements" class="read">Read</a>
+                </div>
+
+            </div>   
+        </section>
+    </main>
+
+    <!-- ======================= Footer ================ -->
+    <footer class="footer section">
+        <div class="footer__container grid">
+            <div class="footer__data">
+                <h2 class="footer__title">NerdySpook</h2>
+                <p class="footer__text">Created with love by NerdySpook ❤️</p>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">Explore</h2>
+                <ul>
+                    <li><a href="#" class="footer__link">Home</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="#blogs" class="footer__link">Blogs</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__data">
+                <h2 class="footer__title">Contact Me</h2>
+                <a href="https://github.com/nerdyspook" class="footer__social"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/susanto-mahato-761118168" class="footer__social"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/nerdyspook" class="footer__social"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
 
     <!-- ======================= Main JS ================ -->
     <script src="/js/main.js"></script>

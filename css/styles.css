@@ -161,7 +161,7 @@ header {
 }
 
 .nav_link:hover {
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .nav__logo {
@@ -322,7 +322,7 @@ strong {
 }
 
 .footer__link:hover {
-    color: var(--primary-color);
+    color: var(--white-color);
 }
 
 .footer__social {
@@ -340,9 +340,22 @@ strong {
         margin: 0;
     }
 
+    h1 {
+        padding-top: 3.7rem;
+    }
+
+    .home p{
+        font-size: var(--h2-font-size);
+        transform: translateY(2rem) translateX(1rem);
+    }
+
     .home img {
         width: 50rem;
         transform: translateX(38.5rem);
+    }
+
+    .home__scroll {
+        transform: translateX(-5rem);
     }
 
     .section {
