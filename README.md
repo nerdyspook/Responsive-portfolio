@@ -1,2 +1,3 @@
 # Responsive-portfolio
- A responsive portfolio to showcase my projects
+
+ A responsive portfolio using HTML, CSS and JAVASCRIPT to showcase my projects and my blogs.
