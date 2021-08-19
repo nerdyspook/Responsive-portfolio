@@ -283,7 +283,7 @@ strong {
   border-radius: 0.6rem;
 }
 
-.css {
+.blog__container2 {
   height: 12rem;
 }
 
@@ -330,6 +330,16 @@ strong {
 }
 
 /* ============================ Media Queries ============================= */
+@media screen and (min-width: 300px) {
+  .blog__container {
+    height: 47vh;
+  }
+
+  .blog__container2 {
+    height: 32vh;
+  }
+}
+
 @media screen and (min-width: 450px) {
   .title {
     font-size: 10rem;
@@ -348,6 +358,14 @@ strong {
   .home__scroll {
     display: none;
     float: right;
+  }
+
+  .blog__container {
+    height: 40vh;
+  }
+
+  .blog__container2 {
+    height: 30vh;
   }
 }
 
@@ -423,7 +441,7 @@ strong {
     height: 15rem;
   }
 
-  .css {
+  .blog__container2 {
     height: 13rem;
   }
 
@@ -447,6 +465,14 @@ strong {
   .projects__container,
   .blogs__container {
     margin: 1rem 20rem;
+  }
+
+  .blog__container {
+    height: 40vh;
+  }
+
+  .blog__container2 {
+    height: 33vh;
   }
 
   .all__projects {
