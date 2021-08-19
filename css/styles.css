@@ -255,7 +255,7 @@ strong {
 }
 
 .blog2 {
-    height: 13rem;
+  height: 13rem;
 }
 
 .live,
@@ -328,23 +328,22 @@ strong {
 /* ============================ Media Queries ============================= */
 
 @media screen and (min-width: 250px) {
-    .project__container{
-        height: 14rem;
-    }
+  .project__container {
+    height: 14rem;
+  }
 
-    .blog {
-        height: 20rem;
-    }
+  .blog {
+    height: 20rem;
+  }
 
-    .blog2{
-        height: 15.5rem;
-    }
+  .blog2 {
+    height: 15.5rem;
+  }
 
-    .live,
-    .code{
-        margin: 1rem 0.2rem;
-    }
-    
+  .live,
+  .code {
+    margin: 1rem 0.2rem;
+  }
 }
 
 @media screen and (min-width: 450px) {
@@ -372,6 +371,7 @@ strong {
     padding: 1rem;
     height: 14rem;
   }
+}
 
 @media screen and (min-width: 768px) {
   body {
@@ -453,6 +453,10 @@ strong {
     margin-right: auto;
   }
 
+  .home img {
+    margin-left: 65vw;
+  }
+
   .projects__container,
   .blogs__container {
     margin: 1rem 20rem;
@@ -466,12 +470,12 @@ strong {
     height: 80vh;
   }
 
-  .blog{
-      height: 17rem;
+  .blog {
+    height: 17rem;
   }
 
-  .blog2{
-      height: 13rem;
+  .blog2 {
+    height: 13rem;
   }
 
   .footer {
@@ -480,7 +484,7 @@ strong {
 }
 
 @media screen and (min-width: 1300px) {
-    .title{
-        font-size: 20rem;
-    }
+  .title {
+    font-size: var(--big-font-size);
+  }
 }
