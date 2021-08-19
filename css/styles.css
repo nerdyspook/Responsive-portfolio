@@ -237,15 +237,25 @@ strong {
   width: var(--big-font-size);
 }
 
-/* =========================== Peojects ============================ */
+/* =========================== Projects ============================ */
 .project__container {
   text-align: left;
   color: var(--dark-color);
   background-color: var(--secondary-color);
   margin: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   height: 12rem;
   border-radius: 0.6rem;
+}
+
+.blog {
+  margin: 1rem;
+  padding: 1rem;
+  height: 19rem;
+}
+
+.blog2 {
+    height: 13rem;
 }
 
 .live,
@@ -273,20 +283,6 @@ strong {
 }
 
 /* ============================ Blogs ============================== */
-.blog__container {
-  text-align: left;
-  color: var(--dark-color);
-  background-color: var(--secondary-color);
-  margin: 1rem;
-  padding: 0.5rem;
-  height: 19rem;
-  border-radius: 0.6rem;
-}
-
-.blog__container2 {
-  height: 12rem;
-}
-
 .read {
   margin: 1rem 1rem 1rem 0;
   padding: 0.3rem 1rem;
@@ -330,14 +326,25 @@ strong {
 }
 
 /* ============================ Media Queries ============================= */
-@media screen and (min-width: 300px) {
-  .blog__container {
-    height: 47vh;
-  }
 
-  .blog__container2 {
-    height: 35vh;
-  }
+@media screen and (min-width: 250px) {
+    .project__container{
+        height: 14rem;
+    }
+
+    .blog {
+        height: 20rem;
+    }
+
+    .blog2{
+        height: 15.5rem;
+    }
+
+    .live,
+    .code{
+        margin: 1rem 0.2rem;
+    }
+    
 }
 
 @media screen and (min-width: 450px) {
@@ -360,14 +367,11 @@ strong {
     float: right;
   }
 
-  .blog__container {
-    height: 40vh;
+  .blog {
+    margin: 1rem;
+    padding: 1rem;
+    height: 14rem;
   }
-
-  .blog__container2 {
-    height: 30vh;
-  }
-}
 
 @media screen and (min-width: 768px) {
   body {
@@ -432,19 +436,6 @@ strong {
     row-gap: 0;
   }
 
-  .projects__container,
-  .blogs__container {
-    margin: 1rem 10rem;
-  }
-
-  .blog__container {
-    height: 15rem;
-  }
-
-  .blog__container2 {
-    height: 13rem;
-  }
-
   .all__projects {
     margin: 0 0 0 1rem;
     padding: 0.5rem 10vw;
@@ -467,15 +458,29 @@ strong {
     margin: 1rem 20rem;
   }
 
-  .blog__container {
-    height: 40vh;
-  }
-
-  .blog__container2 {
-    height: 33vh;
-  }
-
   .all__projects {
     margin: 0 0 0 1rem;
   }
+
+  .blogs__container {
+    height: 80vh;
+  }
+
+  .blog{
+      height: 17rem;
+  }
+
+  .blog2{
+      height: 13rem;
+  }
+
+  .footer {
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+    .title{
+        font-size: 20rem;
+    }
 }
