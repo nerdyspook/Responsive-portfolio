@@ -351,7 +351,7 @@ strong {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 768px) {
   body {
     margin: 0;
   }
@@ -416,7 +416,7 @@ strong {
 
   .projects__container,
   .blogs__container {
-    margin: 1rem 20rem;
+    margin: 1rem 10rem;
   }
 
   .blog__container {
@@ -429,7 +429,7 @@ strong {
 
   .all__projects {
     margin: 1rem 5rem;
-    padding: 0.5rem 10rem;
+    padding: 0.5rem 10vw;
   }
 
   .footer__container {
@@ -442,5 +442,14 @@ strong {
   .grid {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .projects__container,
+  .blogs__container {
+    margin: 1rem 20rem;
+  }
+
+  .all__projects {
+    margin: 0 0 0 1rem;
   }
 }
